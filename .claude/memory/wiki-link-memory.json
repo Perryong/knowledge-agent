@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "weights": {
+    "tfidf": 1.0,
+    "tag_overlap": 1.2,
+    "title_mention": 2.0
+  },
+  "threshold": 0.22,
+  "rejected_pairs": [],
+  "accepted_pairs": [],
+  "aliases": {},
+  "stats": {
+    "runs": 0,
+    "proposed": 0,
+    "accepted": 0,
+    "rejected": 0
+  },
+  "log": []
+}

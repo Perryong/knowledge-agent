@@ -1,0 +1,20 @@
+[project]
+name = "second-brain"
+version = "0.1.0"
+description = "COG Second Brain — knowledge base with trading desk financial analysis integration"
+requires-python = ">=3.11"
+dependencies = [
+    "yfinance>=0.2.36",
+    "pandas>=2.0.0",
+    "pyyaml>=6.0.3",
+    "python-dotenv>=1.2.2",
+    "numpy>=2.4.4",
+    "pydantic>=2.0",
+]
+
+[tool.setuptools]
+packages = []
+
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"

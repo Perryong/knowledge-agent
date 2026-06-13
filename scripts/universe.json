@@ -1,0 +1,64 @@
+{
+  "description": "Curated stock universe for pre-market scanning. ~110 liquid names across 11 sectors. Update weekly or as needed.",
+  "updated": "2026-04-26",
+  "sectors": {
+    "Technology": [
+      "AAPL", "MSFT", "NVDA", "GOOGL", "META", "AMZN", "AMD", "AVGO",
+      "CRM", "ADBE", "ORCL", "INTC", "CSCO", "QCOM", "MU", "ANET",
+      "NOW", "PANW", "CRWD", "PLTR"
+    ],
+    "Consumer Discretionary": [
+      "TSLA", "HD", "NKE", "SBUX", "MCD", "LOW", "TJX", "BKNG",
+      "ABNB", "CMG"
+    ],
+    "Healthcare": [
+      "UNH", "JNJ", "LLY", "PFE", "ABBV", "MRK", "TMO", "ABT",
+      "ISRG", "AMGN"
+    ],
+    "Financials": [
+      "JPM", "BAC", "GS", "MS", "V", "MA", "AXP", "SCHW",
+      "BLK", "C"
+    ],
+    "Energy": [
+      "XOM", "CVX", "COP", "SLB", "EOG", "MPC", "PSX", "VLO",
+      "OXY", "DVN"
+    ],
+    "Industrials": [
+      "CAT", "DE", "HON", "UNP", "GE", "RTX", "LMT", "BA",
+      "UPS", "FDX"
+    ],
+    "Consumer Staples": [
+      "PG", "KO", "PEP", "COST", "WMT", "PM", "MO", "CL",
+      "MDLZ", "KMB"
+    ],
+    "Utilities": [
+      "NEE", "DUK", "SO", "D", "AEP", "SRE", "ED", "WEC",
+      "EXC", "AES"
+    ],
+    "Real Estate": [
+      "AMT", "PLD", "CCI", "EQIX", "SPG", "PSA", "O", "DLR",
+      "WELL", "AVB"
+    ],
+    "Materials": [
+      "LIN", "APD", "SHW", "ECL", "FCX", "NEM", "NUE", "DOW",
+      "VMC", "MLM"
+    ],
+    "Communication Services": [
+      "GOOG", "NFLX", "DIS", "CMCSA", "T", "VZ", "TMUS", "CHTR",
+      "EA", "RBLX"
+    ]
+  },
+  "sector_etfs": {
+    "Technology": "XLK",
+    "Consumer Discretionary": "XLY",
+    "Healthcare": "XLV",
+    "Financials": "XLF",
+    "Energy": "XLE",
+    "Industrials": "XLI",
+    "Consumer Staples": "XLP",
+    "Utilities": "XLU",
+    "Real Estate": "XLRE",
+    "Materials": "XLB",
+    "Communication Services": "XLC"
+  }
+}

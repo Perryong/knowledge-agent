@@ -1,0 +1,16 @@
+{
+  "$comment": "Optional safety-net auto-commit. The orchestrator commands already call worker-git-publisher explicitly at the end of each session (the recommended, controlled path). This Stop hook is a belt-and-suspenders fallback: when the main agent finishes a turn, it commits ONLY if vault content actually changed (the script no-ops otherwise). If you prefer fully explicit commits, delete the hooks block below.",
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash scripts/git_autocommit.sh session \"auto-checkpoint\""
+          }
+        ]
+      }
+    ]
+  }
+}
