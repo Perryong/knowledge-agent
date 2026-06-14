@@ -62,6 +62,19 @@ __pycache__/
 .env
 .env.local
 
+# Hermes Agent integration — never commit the agent home, tokens, or secrets.
+# (~/.hermes holds config.yaml + .env with the Telegram bot token; ignore it
+#  wherever it appears, plus any stray secret/token files. .env.example stays tracked.)
+.hermes/
+**/.hermes/
+*.env
+!.env.example
+!*.env.example
+*.pat
+*.token
+*.secret
+secrets.*
+
 # Vendored third-party MCP servers (74MB; regenerable, not user knowledge)
 .claude/vendor/
 
