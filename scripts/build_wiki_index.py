@@ -17,6 +17,7 @@ from datetime import date
 # Directories to index, in display order.
 SECTIONS = [
     ("05-knowledge/resources", "Research Reports & Resources"),
+    ("05-knowledge/captures", "Telegram Captures"),
     ("05-knowledge/consolidated", "Frameworks & Synthesis"),
     ("05-knowledge/people", "People CRM"),
     ("05-knowledge/projects", "Project Knowledge"),

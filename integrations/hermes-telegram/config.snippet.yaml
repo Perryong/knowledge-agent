@@ -1,0 +1,17 @@
+# config.snippet.yaml — paste this block into ~/.hermes/config.yaml
+#
+# `post_llm_call` fires once per turn, after the agent produces its final response.
+# (Verified against the official hooks docs. If your installed Hermes version does
+#  NOT fire it, switch to `on_session_finalize` below for per-conversation capture.)
+#
+# Use an ABSOLUTE path to the script.
+
+hooks:
+  post_llm_call:
+    - command: "/ABSOLUTE/PATH/TO/COG-second-brain/integrations/hermes-telegram/capture-note.sh"
+      timeout: 30
+
+  # Fallback — per-conversation capture instead of per-turn:
+  # on_session_finalize:
+  #   - command: "/ABSOLUTE/PATH/TO/COG-second-brain/integrations/hermes-telegram/capture-note.sh"
+  #     timeout: 30
